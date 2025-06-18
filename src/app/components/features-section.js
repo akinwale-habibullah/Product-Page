@@ -4,7 +4,7 @@ export default function FeaturesSection() {
   return (
     <section className="w-full flex flex-col items-center py-[80px] gap-[80px] col-start-1 col-end-13">
         
-        <div className="w-full h-480px grid grid-cols-12 gap-[30px] items-center">
+        <div className="w-full h-[480px] grid grid-cols-12 gap-[30px] items-center">
             <div className='col-start-1 col-end-7 h-[480px] flex justify-center items-end'>
                 <Image
                     width={570}
@@ -24,18 +24,14 @@ export default function FeaturesSection() {
             </div>
         </div>
 
-        <div className="w-full h-480px grid grid-cols-12 gap-[30px] items-center">
-            <div className='col-start-1 col-end-7 pl-[32px] h-[280px] w-full flex flex-col gap-[16px] justify-center items-end tracking-[0.5px]'>
-                <div>
-                  <p className='font-semibold text-[40px] leading-[120%] text-[#161723]'>
-                    Prebiotics nourish the beneficial gut bacteria, supporting digestive health
-                  </p>
-                </div>
-                <div>
-                  <p className='font-[400] text-[16px] leading-[150%] tracking-[0.5px] text-[#424153] w-[538px]'>
-                    Our dog food formula contains carefully selected prebiotics that work in harmony with the gut microbiota, providing the necessary nutrients for the growth and maintenance of beneficial bacteria, ultimately supporting digestive health.
-                  </p>
-                </div>
+        <div className="w-full h-[480px] grid grid-cols-12 gap-[30px] items-center">
+            <div className='col-start-1 col-end-7 h-[280px] w-full flex flex-col gap-[16px] justify-center items-start'>
+                <p className='font-semibold text-[40px] leading-[120%] text-[#161723]'>
+                  Prebiotics nourish the beneficial gut bacteria, supporting digestive health
+                </p>
+                <p className='font-[400] text-[16px] leading-[150%] tracking-[0.5px] text-[#424153] w-[538px]'>
+                  Our dog food formula contains carefully selected prebiotics that work in harmony with the gut microbiota, providing the necessary nutrients for the growth and maintenance of beneficial bacteria, ultimately supporting digestive health.
+                </p>
             </div>
 
             <div className='col-start-7 col-end-13 h-[480px] flex justify-center items-end'>

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
 
 export default function HeroSection() {
 return (
@@ -53,12 +54,10 @@ return (
             </div>
 
             <div className="col-start-5 col-end-9 h-[370px]">
-                <Image
-                    width={370}
-                    height={370}
-                    src={'/images/cookie.png'}
-                    alt="Dog biscuits"
-                    className="object-cover" />
+                <ReactCompareSlider
+                    itemOne={<ReactCompareSliderImage src="/images/meat.png" alt="Image of meat and dog food" />}
+                    itemTwo={<ReactCompareSliderImage src="/images/cookie.png" alt="Image of dog cookies" />}
+                />
             </div>
 
             <div className="col-start-9 col-end-13 h-[250px] flex flex-col gap-[80px] justify-between">
