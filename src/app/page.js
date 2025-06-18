@@ -11,8 +11,8 @@ export default function Home() {
         className="w-[1170px] mx-auto h-full grid grid-cols-12 grid-rows-3 gap-[48px]"
       >
         <HeroSection />
-        {/* <AboutSection />
-        <BenefitsSection /> */}
+        <AboutSection />
+        {/* <BenefitsSection /> */}
       </div>
     </div>
   );
