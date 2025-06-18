@@ -3,6 +3,7 @@ import Image from 'next/image';
 export default function AboutSection() {
     return (
         <section className="col-start-1 col-end-13 grid grid-cols-12 py-[80px] gap-[30px] items-center">
+
             <div className="col-start-1 col-end-7 w-full h-[571px] flex flex-col gap-[48px] justify-between items-start">
                 <div className="h-[184px] w-[538px] flex flex-col justify-between gap-[16px]">
                     <h3 className="font-[600] leading-[120%] text-[#161723] text-[36px]">Nutrition is the foundation for longer, healthier lives in dogs.</h3>
