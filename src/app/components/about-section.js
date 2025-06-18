@@ -7,7 +7,7 @@ export default function AboutSection() {
             <div className="col-start-1 col-end-7 w-full h-[571px] flex flex-col gap-[48px] justify-between items-start">
                 <div className="h-[184px] w-[538px] flex flex-col justify-between gap-[16px]">
                     <h3 className="font-[600] leading-[120%] text-[#161723] text-[36px]">Nutrition is the foundation for longer, healthier lives in dogs.</h3>
-                    <h3 className="font-[400] leading-[150%] tracking-[0.5px] text-[#424153] text-[16px]">Invest in your dog's future with our scientifically formulated superfood-powered supplements. Give them the nutrition they deserve and watch them thrive with vitality, energy, and the joy of a longer, healthier life.</h3>
+                    <h3 className="font-[400] leading-[150%] tracking-[0.5px] text-[#424153] text-[16px]">Invest in your dog&apos;s future with our scientifically formulated superfood-powered supplements. Give them the nutrition they deserve and watch them thrive with vitality, energy, and the joy of a longer, healthier life.</h3>
                 </div>
 
                 <div className='flex flex-col w-[538px] h-[243px] gap-[16px]'>
@@ -30,7 +30,7 @@ export default function AboutSection() {
                         
                         <div className='flex flex-row gap-[48px]'>
                             <p className='font-[700] text-[#EE6F4B] text-[33px]'>92%</p>
-                            <p className='font-[400] text-[#424153] text-[16px]'>Our dog food's high protein and fat digestibility contribute to ideal stool quality.</p>
+                            <p className='font-[400] text-[#424153] text-[16px]'>Our dog food&apos;s high protein and fat digestibility contribute to ideal stool quality.</p>
                         </div>
                     </div>
                 </div>

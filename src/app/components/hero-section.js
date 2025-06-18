@@ -1,5 +1,9 @@
 import Image from 'next/image';
-import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
+import {
+    ReactCompareSlider,
+    ReactCompareSliderImage,
+    ReactCompareSliderHandle
+} from 'react-compare-slider';
 
 export default function HeroSection() {
 return (
@@ -57,6 +61,10 @@ return (
                 <ReactCompareSlider
                     itemOne={<ReactCompareSliderImage src="/images/meat.png" alt="Image of meat and dog food" />}
                     itemTwo={<ReactCompareSliderImage src="/images/cookie.png" alt="Image of dog cookies" />}
+                    handle={<ReactCompareSliderHandle
+                        style={{color: '#EE6F4B' }}
+                        buttonStyle={{ backgroundColor: '#ffffff' }}
+                    />}
                 />
             </div>
 
@@ -107,7 +115,7 @@ return (
             <div className="w-[464px] h-[88px] flex flex-col justify-between">
                 <div className='w-[462px] h-[48px]'>
                     <button className="w-full h-full bg-[#EE6F4B] rounded-[6px] hover:bg-[#ee6e4bd4]">
-                        <p className="text-[16px] leading-[150%] tracking-[0.5px] text-[#ffffff]">Get your dog's healthy meal today!</p>
+                        <p className="text-[16px] leading-[150%] tracking-[0.5px] text-[#ffffff]">Get your dog&apos;s healthy meal today!</p>
                     </button>
                 </div>
 

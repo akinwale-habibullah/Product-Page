@@ -19,7 +19,7 @@ export default function FeaturesSection() {
                   Improve overall gastrointestinal health for better nutrient absorption
                 </p>
                 <p className='font-[400] text-[16px] leading-[150%] tracking-[0.5px] text-[#424153] w-[538px]'>
-                  Through rigorous scientific studies and consultations with veterinarians, we have created a breakthrough formula exclusively tailored to combat the health challenges prevalent in dogs. A staggering 91% of our customers have reported significant improvements in their dogs' health after incorporating our product into their diet.
+                  Through rigorous scientific studies and consultations with veterinarians, we have created a breakthrough formula exclusively tailored to combat the health challenges prevalent in dogs. A staggering 91% of our customers have reported significant improvements in their dogs&apos; health after incorporating our product into their diet.
                 </p>
             </div>
         </div>
